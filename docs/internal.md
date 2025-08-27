@@ -7,7 +7,7 @@ hide:
 
 ## Internal resources for members and leads.
 
-[Contribution guide](/internal/contributing)
+[Contribution guide](internal/contributing)
 
 [Slack](https://rocketslug.slack.com/)
 
