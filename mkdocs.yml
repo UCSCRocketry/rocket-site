@@ -5,13 +5,14 @@ site_url: https://ucscrocketry.org/
 site_author: Julia Barbera
 site_description: >-
   The UCSC Rocket Team is the leading aerospace organization for the University of California, Santa Cruz. We design and build high-powered rockets.
-repo_name: UCSCRocketry/rocket-site
-repo_url: https://github.com/UCSCRocketry/rocket-site
+# repo_name: UCSCRocketry/rocket-site
+# repo_url: https://github.com/UCSCRocketry/rocket-site
 
 copyright: Copyright &copy 2025 Regents of the University of California. This group is open to all students consistent with state and federal law, the UC Nondiscrimination Statement and the Nondiscrimination Policy Statement for University of California Publications Regarding Student-Related Matters. <a href="#__consent">Change cookie settings.</a>
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -40,6 +41,7 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
+  logo: assets/rocket-team-logo.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:

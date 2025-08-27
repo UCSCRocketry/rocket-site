@@ -54,3 +54,22 @@
 .md-button:hover {
   background-color: var(--md-accent-fg-color--light);
 }
+
+/* Remove site title from header */
+.md-header__title span {
+  display: none !important;
+}
+
+/* Embiggen logo */
+.md-header__button.md-logo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 5em;
+  width: auto;
+}
