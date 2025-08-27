@@ -5,5 +5,3 @@ hide:
   - toc
   - footer
 ---
-
-# UCSC Rocket Team
