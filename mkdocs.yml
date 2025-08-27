@@ -47,15 +47,15 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: grey
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: deep-purple
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to system preference
@@ -96,3 +96,10 @@ extra:
       - accept
       - reject
       - manage
+nav:
+  - Home: index.md
+  - Internal:
+      - internal.md
+      - Contributing: internal/contributing.md
+extra_css:
+  - stylesheets/extra.css
