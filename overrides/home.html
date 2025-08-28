@@ -24,20 +24,20 @@ document.addEventListener("DOMContentLoaded", () => {
   let index = 0;
       let a = 0;
       function typeNextChar() {
-        if (index < text.length) {
-          target.textContent += text.charAt(index);
-          index++;
-        }
-        if (target.textContent.endsWith("|") && a === 10) {
+        while (target.textContent.endsWith("|") && (a === 15 || index <= text.length - 1)){
           target.textContent = target.textContent.slice(0, -1);
         }
-        if(index === text.length){
-        if (a === 0) {
+        if (index < text.length) {
+          target.textContent += text.charAt(index++);
+          target.textContent += "|";
+        }
+        if(index => text.length){
+        if (a === 0 && !target.textContent.endsWith("|")) {
           target.textContent += "|";
         }
         if (++a > 20) a = 0;
       }
-        setTimeout(typeNextChar, 100);
+        setTimeout(typeNextChar, text.charAt(index) === "," ? 500 : 70);
       }
       typeNextChar();
     });
