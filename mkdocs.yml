@@ -101,8 +101,22 @@ extra:
       - manage
 nav:
   - Home: index.md
+  - Projects:
+      - projects/index.md
+      - Vehicle: projects/vehicle.md
+      - Payload: projects/payload.md
+      - Avionics: projects/avionics.md
+  - Leadership:
+      - leadership/index.md
+      - leadership/alumni.md
   - Internal:
-      - internal.md
+      - internal/index.md
       - Contributing: internal/contributing.md
+  - Sponsors: sponsors.md
+
 extra_css:
   - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
