@@ -7,13 +7,13 @@ git clone https://github.com/UCSCRocketry/rocket-site.git
 cd rocket-site/
 ```
 
-## Create virtual enviroment
+## Create virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-## Activate virtual enviroment
+## Activate virtual environment
 
 On Windows
 
@@ -27,7 +27,7 @@ On Linux and Mac
 source venv/bin/activate
 ```
 
-## Install dependancies
+## Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -52,7 +52,7 @@ git add docs/
 git commit -m "Did stuff"
 ```
 
-Commit with descriptime message
+Commit with descriptive message
 
 ## Push
 
