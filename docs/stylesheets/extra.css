@@ -77,9 +77,10 @@
 /* --- Hero Container --- */
 .hero-container {
   position: relative;
-  height: calc(100vh - var(--md-header-height, 4rem));
+  min-height: calc(100dvh - var(--md-header-height, 6rem));
   width: 100%;
   overflow: hidden;
+  display: flex;
 }
 
 /* Background hero image with overlay*/
@@ -87,7 +88,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  min-height: calc(100dvh - var(--md-header-height, 6rem));
   width: 100%;
   background-image: url("../assets/hero.png");
   background-size: cover;
@@ -115,10 +116,30 @@
 }
 
 @media (max-width: 768px) {
+  /* Put text on bottom of hero */
+  .hero-container {
+    align-items: flex-end;
+    min-height: calc(100dvh - var(--md-header-height, 2rem));
+  }
+
   .hero-content {
     width: 100%;
-    padding-left: 5%;
-    padding-top: calc(var(--md-header-height, 24rem));
+    padding: 2rem 1rem;
+  }
+  .hero-image {
+    min-height: calc(100dvh - var(--md-header-height, 2rem));
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .scroll-down {
+    bottom: 10px;
   }
 }
 
