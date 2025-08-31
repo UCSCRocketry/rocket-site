@@ -8,8 +8,11 @@ hide:
 
 # 
 
-## WE ARE UCSC'S PREMIER AEROSPACE ORGANIZATION
+<div class="responsive-container">
+<div class="responsive-text">
+<h2> WE ARE UCSC'S PREMIER AEROSPACE ORGANIZATION </h2>
 
+<p>
 Nested within the forests, the UCSC Rocket Team is the leading aerospace
 organization at the University of California, Santa Cruz. We design and build
 high-powered rockets that push bounds of performance while performing research
@@ -21,6 +24,15 @@ Engineering, Electrical Engineering, Astrophysics, as well as Business
 Administration and the Arts. Rocket Team is welcoming to any student enrolled at
 UC Santa Cruz.
 
+</p>
+    </div>
+    <div class="responsive-image">
+         <video>
+  <source src="assets/far-launch.mp4" type="video/mp4">
+Your browser does not support video.
+</video>
+  </div>
+</div>
 ## PUSHING LIMITS
 
 As the home of aerospace engineering at UCSC, the UCSC Rocket Team pushes the

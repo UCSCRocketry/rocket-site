@@ -22,6 +22,9 @@
   .md-typeset h6 {
     font-weight: 700 !important;
   }
+  .md-typeset p {
+    font-size: 20px;
+  }
 }
 
 /* Dark mode */
@@ -188,5 +191,41 @@
   }
   60% {
     transform: rotate(45deg) translateY(3px);
+  }
+}
+
+.responsive-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.responsive-container .responsive-text {
+  flex: 1 1 300px;
+}
+
+.responsive-container .responsive-text h2 {
+  margin-top: 0;
+}
+
+.responsive-container .responsive-image {
+  flex: 0 0 400px;
+}
+
+.responsive-container .responsive-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .responsive-container {
+    flex-direction: column;
+  }
+
+  .responsive-container .responsive-image {
+    flex: 1 1 auto;
   }
 }

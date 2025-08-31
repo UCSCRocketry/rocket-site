@@ -1,7 +1,8 @@
 ---
 hide:
- - toc
- - footer
+  - toc
+  - footer
+  - navigation
 ---
 
 # Sponsors
