@@ -230,3 +230,25 @@
     flex: 1 1 auto;
   }
 }
+
+/* Sponsor Page */
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.sponsor-grid img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sponsor-grid a:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
