@@ -214,7 +214,7 @@
   flex: 0 0 400px;
 }
 
-.responsive-container .responsive-image img {
+.responsive-container .responsive-image img, video {
   width: 100%;
   height: auto;
   display: block;

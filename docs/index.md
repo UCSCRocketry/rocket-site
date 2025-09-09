@@ -25,10 +25,12 @@ Administration and the Arts. Rocket Team is welcoming to any student enrolled at
 UC Santa Cruz.
 
 </p></div>
-<div class="responsive-image"><video>
-<source src="assets/far-launch.mp4" type="video/mp4">
-Your browser does not support video.
-</video></div>
+
+<div class="responsive-image">
+  <video autoplay muted playsinline loop>
+    <source src="assets/far-launch.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 <div class="responsive-container">
