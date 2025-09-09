@@ -218,6 +218,7 @@
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 25px;
 }
 
 @media (max-width: 768px) {
