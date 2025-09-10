@@ -241,14 +241,29 @@
   margin-top: 2rem;
 }
 
+@media (min-width: 768px) {
+  .sponsor-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+  .sponsor-grid {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+}
+
 .sponsor-grid img {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  filter: brightness(0) invert(1);
+  transition: filter 0.69s ease;
 }
 
 .sponsor-grid a:hover img {
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  filter: none;
 }
