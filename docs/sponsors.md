@@ -31,4 +31,10 @@ competitions would not be possible.
     <a href="https://www.onshape.com/en/" target="_blank" rel="noopener">
     <img src="../assets/sponsors/onshape.png" alt="OnShape">
   </a>
+    <a href="https://www.ansys.com/" target="_blank" rel="noopener">
+    <img src="../assets/sponsors/ansys.png" alt="Ansys">
+  </a>
+    <a href="https://www.3ds.com/" target="_blank" rel="noopener">
+    <img src="../assets/sponsors/dassault.png" alt="Dassault Systèmes">
+  </a>
 </div>
