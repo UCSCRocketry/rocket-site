@@ -63,7 +63,6 @@ theme:
       icon: material/weather-sunny
       name: Switch to system preference
   font:
-    text: Funnel Sans
     code: Space Mono
   language: en
 

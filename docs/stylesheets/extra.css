@@ -1,5 +1,14 @@
 /* Default */
+@import url("https://fonts.cdnfonts.com/s/16225/Aileron-Regular.woff")
+  format("woff");
+@import url("https://fonts.cdnfonts.com/s/16225/Aileron-SemiBold.woff")
+  format("woff");
+@import url("https://fonts.cdnfonts.com/s/16225/Aileron-Bold.woff")
+  format("woff");
+
 :root {
+  --md-text-font: "Aileron", sans-serif;
+
   /* Primary */
   --md-primary-fg-color: #e5e5e5;
   --md-primary-fg-color--light: #f5f5f5;
@@ -12,21 +21,20 @@
 
   /* Links */
   --md-typeset-a-color: var(--md-accent-fg-color);
-
-  /* Make headers bold */
-  .md-typeset h1,
-  .md-typeset h2,
-  .md-typeset h3,
-  .md-typeset h4,
-  .md-typeset h5,
-  .md-typeset h6 {
-    font-weight: 700 !important;
-  }
-  .md-typeset p {
-    font-size: 20px;
-  }
 }
 
+/* Make headers bold */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-weight: 700 !important;
+}
+.md-typeset p {
+  font-size: 20px;
+}
 /* Dark mode */
 [data-md-color-scheme="slate"] {
   /* Header */
