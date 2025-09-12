@@ -113,6 +113,7 @@ nav:
       - internal/index.md
       - Contributing: internal/contributing.md
   - Sponsors: sponsors.md
+  - Links: https://links.ucscrocketry.org
 
 extra_css:
   - stylesheets/extra.css
