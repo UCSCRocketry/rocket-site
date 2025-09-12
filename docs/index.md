@@ -35,7 +35,7 @@ UC Santa Cruz.
 
 <div class="responsive-container">
     <div class="responsive-image">
- <img src="assets/sts120-launch.png" alt="rockets :3"></div>
+ <img src="assets/sts120-launch.webp" alt="rockets :3"></div>
 <div class="responsive-text">
 <h2>PUSHING LIMITS</h2>
 <p>
@@ -57,5 +57,5 @@ embedded within our community
 </p></div>
 <div class="responsive-image">
     <div class="responsive-image">
- <img src="assets/sts120-launch.png" alt="rockets :3"></div>
+ <img src="assets/sts120-launch.webp" alt="rockets :3"></div>
 </div>.
