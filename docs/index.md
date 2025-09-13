@@ -39,10 +39,7 @@ UC Santa Cruz.
 <div class="responsive-text">
 <h2>PUSHING LIMITS</h2>
 <p>
-As the home of aerospace engineering at UCSC, the UCSC Rocket Team pushes the
-bounds of our school. From competing in the most prestigious rocketry
-competitions to researching groundbreaking thrust-vectoring designs, our team is
-the embodiment of success in the midst of challenges.
+We don’t settle for what’s already been done. Every project challenges us to design smarter, build stronger, and fly higher. From first concepts to full-scale launches, we test the boundaries of what student engineers can achieve. Each step forward brings us closer to new milestones in rocketry, and prepares us to take on the challenges of tomorrow’s aerospace industry.
 </p></div>
 </div>
 
@@ -51,9 +48,7 @@ the embodiment of success in the midst of challenges.
 <h2>EMPOWERING OUR LOCAL COMMUNITY</h2>
 
 <p>
-Not only do we love rocketry, but we share our love with the wider community.
-From visits to grade schools, to partnerships with local companies, we're deeply
-embedded within our community
+Beyond engineering excellence, we’re dedicated to sharing our passion for aerospace with our community. Through outreach events, workshops, and demonstrations, we inspire future innovators and provide students of all backgrounds with hands-on opportunities to explore STEM. By building together, we strengthen not only our team, but the community that supports us.
 </p></div>
 <div class="responsive-image">
     <div class="responsive-image">
