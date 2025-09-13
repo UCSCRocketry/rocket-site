@@ -13,7 +13,7 @@ copyright: Copyright &copy 2025 Regents of the University of California. This gr
 theme:
   name: material
   custom_dir: overrides
-  favicon: assets/favicon.png
+  favicon: assets/favicon.webp
   features:
     - announce.dismiss
     - content.action.edit
@@ -42,7 +42,7 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
-  logo: assets/rocket-team-logo.png
+  logo: assets/rocket-team-logo.webp
   palette:
     #- media: "(prefers-color-scheme)"
     #  toggle:

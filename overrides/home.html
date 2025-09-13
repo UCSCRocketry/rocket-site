@@ -10,7 +10,7 @@
 <section class="hero-container">
     <div class="hero-image"></div>
     <div class="hero-content">
-    <h1 id="typing"></h1>      </div>
+      <h1 id="typing">      {{config.extra.tagline }}</h1>      </div>
 
     <div class="scroll-down">
       <span></span>
@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let index = 0;
       let a = 0;
+  target.textContent = "";
       function typeNextChar() {
         while (target.textContent.endsWith("|") && (a === 15 || index <= text.length - 1)){
           target.textContent = target.textContent.slice(0, -1);
@@ -30,8 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (index < text.length) {
           target.textContent += text.charAt(index++);
           target.textContent += "|";
-        }
-        if(index => text.length){
+        } else {
         if (a === 0 && !target.textContent.endsWith("|")) {
           target.textContent += "|";
         }
