@@ -28,14 +28,14 @@ UC Santa Cruz.
 
 <div class="responsive-image">
   <video autoplay muted playsinline loop>
-    <source src="assets/far-launch.mp4" type="video/mp4">
+    <source src="assets/home/far-launch.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
 
 <div class="responsive-container">
     <div class="responsive-image">
- <img src="assets/sts120-launch.webp" alt="rockets :3"></div>
+ <img src="assets/home/payload.webp" alt="2023 Payload Project"></div>
 <div class="responsive-text">
 <h2>PUSHING LIMITS</h2>
 <p>
@@ -57,5 +57,5 @@ embedded within our community
 </p></div>
 <div class="responsive-image">
     <div class="responsive-image">
- <img src="assets/sts120-launch.webp" alt="rockets :3"></div>
+ <img src="assets/home/outreach.webp" alt="Outreach team at 11th hour coffee"></div>
 </div>.

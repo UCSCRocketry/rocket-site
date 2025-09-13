@@ -101,7 +101,7 @@
   left: 0;
   min-height: calc(100dvh - var(--md-header-height, 6rem));
   width: 100%;
-  background-image: url("../assets/hero.png");
+  background-image: url("../assets/home/hero.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
