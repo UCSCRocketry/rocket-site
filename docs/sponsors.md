@@ -7,10 +7,11 @@ hide:
 
 # Sponsors
 
-We extend our deepest gratitude to our sponsors for their generous support.
-Their contributions enable us to innovate, build, and push the boundaries of
-rocketry and engineering excellence. Without their support, our projects and
-competitions would not be possible.
+The UC Santa Cruz Rocket Team extends our deepest gratitude to our sponsors for
+their support. Your contributions provide the resources that allow us to design,
+build, and compete at the highest level of collegiate rocketry. With your
+partnership, we continue advancing engineering innovation and preparing the next
+generation of aerospace leaders.
 
 <div class="sponsor-grid">
   <a href="https://slugworks.engineering.ucsc.edu/" target="_blank" rel="noopener">
