@@ -19,3 +19,12 @@ designing, testing, and implementing systems to ensure the safe return of rocket
 components post-flight. Our primary objective is to minimize damage during
 descent and landing, enabling the reuse of critical components and enhancing
 overall mission sustainability.
+
+## Skills Used
+
+<div class='skills-grid'>
+    <p>Computer Aid Design</p>
+    <p>OpenRocket</p>
+    <p>3D Modelling and Printing</p>
+    <p>Flight Simulations</p>
+</div>
