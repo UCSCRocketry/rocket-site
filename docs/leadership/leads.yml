@@ -1,0 +1,23 @@
+executive:
+  - id: shortname
+    name: longname
+    position: position
+    photo: assets/team/shortname.webp
+    short_bio: shortbio
+    long_bio: >
+      longbio
+    socials:
+      linkedin: https://linkedin.com/in/l
+      github: https://github.com/g
+
+project:
+  - id: shortname
+    name: longname
+    position: position
+    photo: assets/team/shortname.webp
+    short_bio: shortbio
+    long_bio: >
+      longbio
+    socials:
+      linkedin: https://linkedin.com/in/l
+      github: https://github.com/g

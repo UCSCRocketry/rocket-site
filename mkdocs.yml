@@ -71,8 +71,11 @@ plugins:
   - search
   - social
   - blog
+  - macros
 
 extra:
+  leads: {}
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/UCSCRocketry
