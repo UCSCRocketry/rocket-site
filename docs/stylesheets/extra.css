@@ -205,10 +205,9 @@
 .responsive-container {
   display: flex;
   align-items: flex-start;
-  row-gap: 120px;
-  column-gap: 60px;
+  gap: 60px;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .responsive-container .responsive-text {
