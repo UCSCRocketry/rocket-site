@@ -205,7 +205,8 @@
 .responsive-container {
   display: flex;
   align-items: flex-start;
-  gap: 20px;
+  row-gap: 120px;
+  column-gap: 60px;
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }
@@ -219,7 +220,7 @@
 }
 
 .responsive-container .responsive-image {
-  flex: 0 0 400px;
+  flex: 0 0 600px;
 }
 
 .responsive-container .responsive-image img, video {
