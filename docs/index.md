@@ -16,7 +16,9 @@ hide:
       Nested within the forests, the UCSC Rocket Team is the leading aerospace
       organization at the University of California, Santa Cruz. We design and
       build high-powered rockets that push bounds of performance while
-      performing research missions. Rocket Team is home to a unique experience
+      performing research missions.
+    <br>
+      Rocket Team is home to a unique experience
       that enables students of any background of major to take on the biggest
       problems facing the modern areospace industry and academia. We understand
       that ingenuity can come from anywhere, and take us everywhere, so we
