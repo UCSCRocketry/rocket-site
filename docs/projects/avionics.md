@@ -17,3 +17,14 @@ and extrapolate higher resolution data.
 Visualizing data and controlling some aspects of the flight from the ground
 allows us to understand flight data in real time. 3D web rendering techniques
 give us the ability to analyze flight patterns.
+
+## Skills Used
+
+<div class='skills-grid'>
+    <p>Embedded Systems</p>
+    <p>Signal Processing</p>
+    <p>PCB Design</p>
+    <p>KiCAD</p>
+    <p>Data Visualization</p>
+    <p>Data Analysis</p>
+</div>

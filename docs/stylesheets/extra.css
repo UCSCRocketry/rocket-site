@@ -275,3 +275,20 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   filter: none;
 }
+
+
+/* Skills used in Projects pages */
+.skills-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.skills-grid p {
+  backdrop-filter: blur(30px);
+  background-color: #323232;
+  margin: 0px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+
+}
