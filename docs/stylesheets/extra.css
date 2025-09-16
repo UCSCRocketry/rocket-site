@@ -311,3 +311,110 @@
   background: #0f0f0f;
   color: #fff;
 }
+
+/* Leader card container */
+.lead-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background: #111;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  min-height: 180px;
+  position: relative; /* for icons positioning */
+}
+
+.lead-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Leader image */
+.lead-card img {
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  border-right: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Text container */
+.lead-card .lead-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px 20px;
+}
+
+/* Name */
+.lead-card .lead-info h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+/* Position */
+.lead-card .lead-info .position {
+  color: #aaa;
+  font-weight: 500;
+  margin: 3px 0 8px 0;
+  font-size: 0.95rem;
+}
+
+/* Short bio */
+.lead-card .lead-info .short-bio {
+  color: #fff;
+  font-size: 0.88rem;
+  line-height: 1.3;
+  margin-bottom: 30px; /* space for icons */
+}
+
+/* Social icons container */
+.lead-card .lead-info .socials {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Social icons */
+.lead-card .lead-info .socials a {
+  color: var(--md-accent-fg-color);
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.lead-card .lead-info .socials a:hover {
+  transform: scale(1.2);
+  color: var(--md-accent-fg-color--light);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .lead-card {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .lead-card img {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .lead-card .lead-info {
+    padding: 10px 15px;
+    position: relative;
+  }
+  .lead-card .lead-info .socials {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin-top: 10px;
+  }
+}
