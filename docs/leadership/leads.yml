@@ -1,23 +1,86 @@
 executive:
-  - id: shortname
-    name: longname
-    position: position
-    photo: assets/team/shortname.webp
-    short_bio: shortbio
-    long_bio: >
-      longbio
+  - id: teodor
+    name: Teodor Langan
+    position: President
+    short_bio: 3rd Year Robotics Engineer
     socials:
-      linkedin: https://linkedin.com/in/l
-      github: https://github.com/g
+
+  - id: alexander
+    name: Alexander Daltchev
+    position: Vice-President
+    short_bio: 3rd Year BME
+    socials:
+
+  - id: alex
+    name: Alexandria Reyes Onions
+    position: Finance Lead
+    short_bio: Slug
+    socials:
+
+  - id: heli
+    name: Heli Kadakia
+    position: Lab Safety Officer
+    short_bio: 3rd Year CS/CE
+    socials:
+      linkedin: https://www.linkedin.com/in/helikadakia/
+      github: https://github.com/hkadakia05
+      website: hkadakia05.github.io/heli-website-react1
+
+  - id: hennessy
+    name: Hennessy Soto-Silvas
+    position: Outreach Lead
+    short_bio: 3rd Year RE
+    socials:
 
 project:
-  - id: shortname
-    name: longname
-    position: position
-    photo: assets/team/shortname.webp
-    short_bio: shortbio
-    long_bio: >
-      longbio
+  - id: julia
+    name: Julia Barbera
+    position: Avionics Electrical
+    short_bio: 3rd Year Electrical Engineer
     socials:
-      linkedin: https://linkedin.com/in/l
-      github: https://github.com/g
+      linkedin: https://linkedin.com/in/JulianBarbera
+      github: https://github.com/JulianBarbera
+      website: https://jbarbera.space
+
+  - id: merrick
+    name: Merrick Fort
+    position: Avionics Software
+    short_bio: 4th Year CS
+    socials:
+      linkedin: https://www.linkedin.com/in/merrick-fort/
+
+  - id: sage
+    name: Sage Silberman
+    short_bio: 3rd Year CS
+    position: Avionics Ground Control
+    socials:
+
+  - id: max
+    name: Maximillian Miller
+    position: Defacto Airbrakes Lead
+    short_bio: Doesn't Want This Position
+    socials:
+
+  - id: dayton
+    name: Dayton Nguyen
+    position: Vehicle
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+
+  - id: javier
+    name: Javier Valencia
+    position: Recovery
+    short_bio: 2nd Year Applied Mathematics
+    socials:
+
+  - id: nivedita
+    name: Nivedita Kamath
+    position: Payload
+    short_bio: 3rd Year Robotics Engineer
+    socials:
+
+#  - id: shortname
+#    name: longname
+#    position: position
+#    short_bio: shortbio
+#    socials:
