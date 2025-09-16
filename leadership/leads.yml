@@ -1,0 +1,122 @@
+executive:
+  - id: teodor
+    name: Teodor Langan
+    position: President
+    short_bio: 3rd Year Robotics Engineer
+    socials:
+
+  - id: alexander
+    name: Alexander Daltchev
+    position: Vice-President
+    short_bio: 3rd Year BME
+    socials:
+
+  - id: alex
+    name: Alexandria Reyes Onions
+    position: Finance Lead
+    short_bio: Slug
+    socials:
+
+  - id: heli
+    name: Heli Kadakia
+    position: Lab Safety Officer
+    short_bio: 3rd Year CS/CE
+    socials:
+      linkedin: https://www.linkedin.com/in/helikadakia/
+      github: https://github.com/hkadakia05
+      website: hkadakia05.github.io/heli-website-react1
+
+  - id: hennessy
+    name: Hennessy Soto-Silvas
+    position: Outreach Lead
+    short_bio: 3rd Year RE
+    socials:
+
+project:
+  - id: julia
+    name: Julia Barbera
+    position: Avionics Electrical
+    short_bio: 3rd Year Electrical Engineer
+    socials:
+      linkedin: https://linkedin.com/in/JulianBarbera
+      github: https://github.com/JulianBarbera
+      website: https://jbarbera.space
+
+  - id: merrick
+    name: Merrick Fort
+    position: Avionics Software
+    short_bio: 4th Year CS
+    socials:
+      linkedin: https://www.linkedin.com/in/merrick-fort/
+
+  - id: sage
+    name: Sage Silberman
+    short_bio: 3rd Year CS
+    position: Avionics Ground Control
+    socials:
+
+  - id: max
+    name: Maximillian Miller
+    position: Defacto Airbrakes Lead
+    short_bio: Doesn't Want This Position
+    socials:
+
+  - id: dayton
+    name: Dayton Nguyen
+    position: Vehicle
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+
+  - id: javier
+    name: Javier Valencia
+    position: Recovery
+    short_bio: 2nd Year Applied Mathematics
+    socials:
+
+  - id: nivedita
+    name: Nivedita Kamath
+    position: Payload
+    short_bio: 3rd Year Robotics Engineer
+    socials:
+
+unc:
+  - id: qingyuan
+    name: Qingyuan Cao
+    position: President
+    short_bio: 2024
+    socials:
+
+  - id: khanh
+    name: Khanh Tran
+    position: Vice President
+    short_bio: 2024 Electrical Engineer
+    socials:
+      linkedin: https://www.linkedin.com/in/khanh-n-tran/
+
+  - id: laura
+    name: Laura Ortiz
+    position: Payload Lead
+    short_bio: 2024
+    socials:
+      linkedin: https://www.linkedin.com/in/laura-ortiz-08b4801b7/
+
+  - id: marcus
+    name: Marcus Chan
+    position: Lab Safety Officer
+    short_bio: 2024
+
+  - id: john
+    name: John Drab
+    position: Safety Officer
+    short_bio: 2023
+
+  - id: karina
+    name: Karina Aguilar
+    position: Vice President
+    short_bio: 2023
+
+#  - id: shortname
+#    name: longname
+#    position: position
+#    short_bio: shortbio
+#    socials:
