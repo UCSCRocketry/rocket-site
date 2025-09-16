@@ -79,6 +79,42 @@ project:
     short_bio: 3rd Year Robotics Engineer
     socials:
 
+unc:
+  - id: qingyuan
+    name: Qingyuan Cao
+    position: President
+    short_bio: 2024
+    socials:
+
+  - id: khanh
+    name: Khanh Tran
+    position: Vice President
+    short_bio: 2024 Electrical Engineer
+    socials:
+      linkedin: https://www.linkedin.com/in/khanh-n-tran/
+
+  - id: laura
+    name: Laura Ortiz
+    position: Payload Lead
+    short_bio: 2024
+    socials:
+      linkedin: https://www.linkedin.com/in/laura-ortiz-08b4801b7/
+
+  - id: marcus
+    name: Marcus Chan
+    position: Lab Safety Officer
+    short_bio: 2024
+
+  - id: john
+    name: John Drab
+    position: Safety Officer
+    short_bio: 2023
+
+  - id: karina
+    name: Karina Aguilar
+    position: Vice President
+    short_bio: 2023
+
 #  - id: shortname
 #    name: longname
 #    position: position
