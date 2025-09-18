@@ -28,6 +28,8 @@
 
       </a>
     {% endif %}
+
+
     {% if lead.socials.github %}
       <a href="{{ lead.socials.github }}" target="_blank">
 
@@ -63,24 +65,61 @@
       <a href="{{ lead.socials.website }}" target="_blank">
 
 <span style="width:24px; height:24px; display:inline-block; vertical-align:middle;">
-  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe"
-       class="svg-inline--fa fa-globe fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
-       viewBox="0 0 496 512" style="width:100%; height:100%;">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 3 C13.2 6 13.2 18 12 21" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 3 C10.8 6 10.8 18 12 21" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M4 9 C8 8 16 8 20 9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M4 15 C8 16 16 16 20 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 3 L12 21" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" />
+</svg>
+</span>
+        </a>
+      {% endif %}
+
+    {% if lead.socials.instagram %}
+      <a href="{{ lead.socials.instagram }}" target="_blank">
+
+<span style="width:24px; height:24px; display:inline-block; vertical-align:middle;">
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+       class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 448 512" style="width:100%; height:100%;">
     <path fill="currentColor"
-      d="M248 8C111 8 0 119 0 256s111 248 248 248
-         248-111 248-248S385 8 248 8zm149.6 187.7c-6.8
-         15.3-32.5 46.7-64.5 78.5-9.8 10-19.9 19.4-29.9
-         28.1-27.2 23.4-53.3 41.7-63.7 46.8-10.5 5.2-14.1
-         5.1-24.6 0-10.5-5.2-36.5-23.4-63.7-46.8-10-8.7-20.1-18.1-29.9-28.1-32-31.8-57.7-63.2-64.5-78.5-6.8-15.3-5.1-25.8 4.8-25.8h283.7c9.8 0 11.6 10.5 4.8 25.8z">
+      d="M224.1 141c-63.6 0-114.9 51.3-114.9
+         114.9s51.3 114.9 114.9 114.9 114.9-51.3
+         114.9-114.9S287.7 141 224.1 141zm0
+         189.6c-41.2 0-74.7-33.5-74.7-74.7
+         0-41.2 33.5-74.7 74.7-74.7
+         41.2 0 74.7 33.5 74.7 74.7
+         0 41.2-33.5 74.7-74.7 74.7zm146.4-194.3c0
+         14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9
+         12-26.9 26.9-26.9 26.9 12 26.9
+         26.9zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9s-58-34.5-93.9-36.2c-37-2.1-148-2.1-185
+         0-35.8 1.7-67.6 9.9-93.9 36.2S2 127.6.3
+         163.5c-2.1 37-2.1 148 0 185 1.7
+         35.9 9.9 67.7 36.2 93.9s58 34.5
+         93.9 36.2c37 2.1 148 2.1 185
+         0 35.9-1.7 67.7-9.9 93.9-36.2
+         26.3-26.2 34.5-58 36.2-93.9
+         2.1-37 2.1-147.9 0-184.9zM398.8
+         388c-7.8 19.6-22.9 34.7-42.6
+         42.6-29.5 11.7-99.5 9-132.1
+         9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7
+         9-132.1c7.8-19.6 22.9-34.7
+         42.6-42.6 29.5-11.7 99.5-9
+         132.1-9s102.7-2.6 132.1 9c19.6
+         7.8 34.7 22.9 42.6 42.6 11.7
+         29.5 9 99.5 9 132.1s2.7 102.7-9
+         132.1z">
     </path>
   </svg>
 </span>
 
-        </a>
-      {% endif %}
-    </div>
+      </a>
     {% endif %}
 
+</div>
+    {% endif %}
 </div>
 </div>
 
@@ -149,24 +188,62 @@
       <a href="{{ lead.socials.website }}" target="_blank">
 
 <span style="width:24px; height:24px; display:inline-block; vertical-align:middle;">
-  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe"
-       class="svg-inline--fa fa-globe fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
-       viewBox="0 0 496 512" style="width:100%; height:100%;">
-    <path fill="currentColor"
-      d="M248 8C111 8 0 119 0 256s111 248 248 248
-         248-111 248-248S385 8 248 8zm149.6 187.7c-6.8
-         15.3-32.5 46.7-64.5 78.5-9.8 10-19.9 19.4-29.9
-         28.1-27.2 23.4-53.3 41.7-63.7 46.8-10.5 5.2-14.1
-         5.1-24.6 0-10.5-5.2-36.5-23.4-63.7-46.8-10-8.7-20.1-18.1-29.9-28.1-32-31.8-57.7-63.2-64.5-78.5-6.8-15.3-5.1-25.8 4.8-25.8h283.7c9.8 0 11.6 10.5 4.8 25.8z">
-    </path>
-  </svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 3 C13.2 6 13.2 18 12 21" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 3 C10.8 6 10.8 18 12 21" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M4 9 C8 8 16 8 20 9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M4 15 C8 16 16 16 20 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 3 L12 21" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" />
+</svg>
 </span>
 
         </a>
       {% endif %}
-    </div>
+
+    {% if lead.socials.instagram %}
+      <a href="{{ lead.socials.instagram }}" target="_blank">
+
+<span style="width:24px; height:24px; display:inline-block; vertical-align:middle;">
+  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+       class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 448 512" style="width:100%; height:100%;">
+    <path fill="currentColor"
+      d="M224.1 141c-63.6 0-114.9 51.3-114.9
+         114.9s51.3 114.9 114.9 114.9 114.9-51.3
+         114.9-114.9S287.7 141 224.1 141zm0
+         189.6c-41.2 0-74.7-33.5-74.7-74.7
+         0-41.2 33.5-74.7 74.7-74.7
+         41.2 0 74.7 33.5 74.7 74.7
+         0 41.2-33.5 74.7-74.7 74.7zm146.4-194.3c0
+         14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9
+         12-26.9 26.9-26.9 26.9 12 26.9
+         26.9zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9s-58-34.5-93.9-36.2c-37-2.1-148-2.1-185
+         0-35.8 1.7-67.6 9.9-93.9 36.2S2 127.6.3
+         163.5c-2.1 37-2.1 148 0 185 1.7
+         35.9 9.9 67.7 36.2 93.9s58 34.5
+         93.9 36.2c37 2.1 148 2.1 185
+         0 35.9-1.7 67.7-9.9 93.9-36.2
+         26.3-26.2 34.5-58 36.2-93.9
+         2.1-37 2.1-147.9 0-184.9zM398.8
+         388c-7.8 19.6-22.9 34.7-42.6
+         42.6-29.5 11.7-99.5 9-132.1
+         9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7
+         9-132.1c7.8-19.6 22.9-34.7
+         42.6-42.6 29.5-11.7 99.5-9
+         132.1-9s102.7-2.6 132.1 9c19.6
+         7.8 34.7 22.9 42.6 42.6 11.7
+         29.5 9 99.5 9 132.1s2.7 102.7-9
+         132.1z">
+    </path>
+  </svg>
+</span>
+
+      </a>
     {% endif %}
 
+</div>
+    {% endif %}
 </div>
 </div>
 
