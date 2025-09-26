@@ -48,6 +48,7 @@ project:
     short_bio: 4th Year CS
     socials:
       linkedin: https://www.linkedin.com/in/merrick-fort/
+      website: https://merrickfort.com/
 
   - id: sage
     name: Sage Silberman
