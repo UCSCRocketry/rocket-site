@@ -276,6 +276,42 @@
   filter: none;
 }
 
+/* KiCanvas Viewer Styling */
+.kicanvas-container {
+  margin: 2rem 0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.kicanvas-container kicanvas-embed {
+  display: block;
+  width: 100%;
+  height: 600px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .kicanvas-container kicanvas-embed {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .kicanvas-container kicanvas-embed {
+    height: 300px;
+  }
+}
+
+/* Section styling for better spacing */
+.md-typeset h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
 /* Skills used in Projects pages */
 .skills-grid {
   display: grid;

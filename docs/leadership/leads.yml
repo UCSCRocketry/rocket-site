@@ -38,8 +38,8 @@ project:
     position: Avionics Electrical
     short_bio: 3rd Year Electrical Engineer
     socials:
-      linkedin: https://linkedin.com/in/JulianBarbera
-      github: https://github.com/JulianBarbera
+      linkedin: https://linkedin.com/in/JuliaBarbera
+      github: https://github.com/JuliaFishBarbera
       website: https://jbarbera.space
 
   - id: merrick
@@ -54,12 +54,6 @@ project:
     name: Sage Silberman
     short_bio: 3rd Year CS
     position: Avionics Ground Control
-    socials:
-
-  - id: max
-    name: Maximillian Miller
-    position: Airbrakes Lead
-    short_bio: 3rd Year RE
     socials:
 
   - id: dayton

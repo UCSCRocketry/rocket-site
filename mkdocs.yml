@@ -8,7 +8,7 @@ site_description: >-
 # repo_name: UCSCRocketry/rocket-site
 # repo_url: https://github.com/UCSCRocketry/rocket-site
 
-copyright: Copyright &copy 2025 Regents of the University of California. This group is open to all students consistent with state and federal law, the UC Nondiscrimination Statement and the Nondiscrimination Policy Statement for University of California Publications Regarding Student-Related Matters. <a href="#__consent">Change cookie settings.</a>
+copyright: Copyright &copy 2026 Regents of the University of California. This group is open to all students consistent with state and federal law, the UC Nondiscrimination Statement and the Nondiscrimination Policy Statement for University of California Publications Regarding Student-Related Matters. <a href="#__consent">Change cookie settings.</a>
 
 theme:
   name: material
@@ -108,6 +108,7 @@ nav:
       - Vehicle: projects/vehicle.md
       - Payload: projects/payload.md
       - Avionics: projects/avionics.md
+      - Avionics Electrical: projects/avionics-electrical.md
   - Leadership:
       - leadership/index.md
       - leadership/alumni.md
@@ -119,6 +120,9 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - assets/js/kicanvas.js
 
 markdown_extensions:
   - pymdownx.tabbed:
