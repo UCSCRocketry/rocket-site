@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 id="avionics-electrical">Avionics Electrical</h1>
+<p>
+The electrical subteam develops flight and ground hardware for collecting data
+and controlling the flight vehicle. Our projects represent the state of the art
+in High Power Rocketry.
+</p>
+
+{% for system in page.meta.avionics_electrical.systems %}
+<h2 id="{{ system.slug }}">{{ system.name }}</h2>
+<div class="responsive-container" style="align-items: center;">
+  <div class="responsive-image" style="flex: 0 0 300px;">
+    <img src="{{ system.image }}" alt="{{ system.name }}">
+  </div>
+  <div class="responsive-text">
+    <h3>{{ system.name }}</h3>
+    <p>{{ system.description }}</p>
+    <ul>
+      {% for spec in system.specs %}
+      <li><strong>{{ spec.label }}</strong>: {{ spec.value }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endfor %}
+{% endblock %}
