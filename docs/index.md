@@ -27,10 +27,7 @@ hide:
 </div>
 
 <div class="responsive-image">
-    <video autoplay muted playsinline loop>
-      <source src="assets/home/far-launch.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <img src="assets/home/irec-launch.webp" alt="2026 Rocket">
   </div>
 
 </div>

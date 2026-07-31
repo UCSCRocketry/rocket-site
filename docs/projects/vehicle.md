@@ -10,7 +10,8 @@ Clear and consistent communication with other teams is essential to the smooth
 integration of subsystems within the final launch vehicle. We prioritize the
 safe housing and deployment of the Payload while accommodating space and
 functionality for student-developed avionics, ensuring a successful performance
-during the competition flight. Recovery
+during the competition flight. 
+
 
 ## Recovery
 
