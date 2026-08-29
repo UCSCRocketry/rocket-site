@@ -15,6 +15,36 @@ def log(message):
     if VERBOSE:
         print(f"[INFO] {message}")
 
+def convert_jpg_to_webp(jpg_path):
+    """
+    Convert a single JPG to WebP.
+    Returns True if converted, False if skipped.
+    """
+    webp_path = jpg_path.with_suffix(".webp")
+
+    if webp_path.exists() and webp_path.stat().st_mtime >= jpg_path.stat().st_mtime:
+        return False 
+    
+    try:
+        with Image.open(jpg_path) as img:
+            img.save(webp_path, "WEBP", quality=WEBP_QUALITY, optimize=True)
+        
+        original_size = jpg_path.stat().st_size
+        new_size = webp_path.stat().st_size
+        savings = int(((original_size - new_size) / original_size) * 100)
+
+        log(
+            f"Converted {jpg_path.name} → {webp_path.name} "
+            f"({original_size:,} → {new_size:,} bytes, {savings}% smaller)"
+        )
+
+        return True
+
+    except Exception as e:
+        print(f"[ERROR] Failed to convert {jpg_path}: {e}")
+        if webp_path.exists():
+            webp_path.unlink()
+        return False
 
 def convert_png_to_webp(png_path):
     """
@@ -49,7 +79,7 @@ def convert_png_to_webp(png_path):
         return True
 
     except Exception as e:
-        print(f"[ERROR] Failed to convert {png_path}: {e}")
+        print(f"[ERROR] Failed to convert {jpg_path}: {e}")
         if webp_path.exists():
             webp_path.unlink()
         return False
@@ -64,6 +94,9 @@ def update_markdown_file(md_path):
             (r"(!\[[^\]]*\]\([^)]*?)\.png(\))", r"\1.webp\2"),
             (r"(\[[^\]]*\]\([^)]*?)\.png(\))", r"\1.webp\2"),
             (r'(src=["\'][^"\']*?)\.png(["\'])', r"\1.webp\2"),
+            (r"(!\[[^\]]*\]\([^)]*?)\.jpg(\))", r"\1.webp\2"),
+            (r"(\[[^\]]*\]\([^)]*?)\.jpg(\))", r"\1.webp\2"),
+            (r'(src=["\'][^"\']*?)\.jpg(["\'])', r"\1.webp\2"),
         ]
 
         for pattern, replacement in patterns:
@@ -114,6 +147,20 @@ def main():
 
         log(f"Converted {converted} new/updated images")
 
+    jpg_files = list(src_path.rglob("*.jpg"))
+    if not jpg_files:
+        log("No JPG files found")
+    else:
+        log(f"Found {len(jpg_files)} JPG files")
+        converted = 0
+
+        for jpg_path in jpg_files:
+            if convert_jpg_to_webp(jpg_path):
+                converted += 1
+
+        log(f"Converted {converted} new/updated images")
+
+
     md_files = list(src_path.rglob("*.md"))
     if not md_files:
         log("No Markdown files found")
@@ -128,6 +175,7 @@ def main():
         log(f"Updated {updated} Markdown files")
 
     log("Conversion complete!")
+
     return 0
 
 

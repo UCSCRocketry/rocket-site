@@ -18,17 +18,26 @@ hide:
       build high-powered rockets that push bounds of performance while
       performing research missions.
     <br>
-      Rocket Team is home to a unique experience
-      that enables students of any background of major to take on the biggest
-      problems facing the modern areospace industry and academia. We understand
-      that ingenuity can come from anywhere, and take us everywhere, so we
-      embrace curiosity and persevere to build our spirit and build tomorrow.
+    <br>
+      Rocket Team is home to a unique, hands-on experience where students of
+      any background or field of study can take on the biggest
+      problems facing the modern aerospace industry. Whether it be designing and 
+      manufacturing vehicle composites, developing payloads and robotics, or 
+      engineering avionics flight computers, our members have the opportunity
+      to turn ideas into reality through the process of design, testing, failure, 
+      and iterations. We understand that ingenuity can come from anywhere,
+      and take us everywhere, so we embrace curiosity and persevere to build 
+      our spirit and build tomorrow. 
     </p>
 </div>
 
 <div class="responsive-image">
-    <img src="assets/home/irec-launch.webp" alt="2026 Rocket">
-  </div>
+    <!-- <video autoplay muted playsinline loop>
+      <source src="assets/home/far-launch.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video> -->
+    <img src="assets/home/far-launch2026.webp" alt="2026 Full Scale Rocket at FAR">
+</div>
 
 </div>
 
