@@ -79,7 +79,7 @@ def convert_png_to_webp(png_path):
         return True
 
     except Exception as e:
-        print(f"[ERROR] Failed to convert {jpg_path}: {e}")
+        print(f"[ERROR] Failed to convert {png_path}: {e}")
         if webp_path.exists():
             webp_path.unlink()
         return False

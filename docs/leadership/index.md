@@ -249,7 +249,7 @@
 
 {% endfor %}
 
-### Avionics Leads
+## Avionics Leads
 
 {% for lead in leads.avionics %}
 
@@ -263,7 +263,7 @@
     {% if lead.socials %}
     <div class="socials">
       {% if lead.socials.linkedin %}
-        <a href="{{ lead.socials.linkedin }}" target="_blank">
+        <a href="{{ lead.socials.linkedin }}" target="_blank" aria-label="{{ lead.name }} on Linked">
 
 <span style="width:24px; height:24px; display:inline-block; vertical-align:middle;">
   <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
