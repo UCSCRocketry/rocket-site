@@ -8,7 +8,7 @@ site_description: >-
 # repo_name: UCSCRocketry/rocket-site
 # repo_url: https://github.com/UCSCRocketry/rocket-site
 
-copyright: Copyright &copy 2026 Regents of the University of California. This group is open to all students consistent with state and federal law, the UC Nondiscrimination Statement and the Nondiscrimination Policy Statement for University of California Publications Regarding Student-Related Matters. <a href="#__consent">Change cookie settings.</a>
+copyright: Copyright &copy 2026 Regents of the University of California. This group is open to all students consistent with state and federal law, the UC Nondiscrimination Statement and the Nondiscrimination Policy Statement for University of California Publications Regarding Student-Related Matters.
 
 theme:
   name: material
@@ -90,17 +90,7 @@ extra:
       link: https://rocketslug.slack.com/
       name: Join our Slack!
   tagline: FROM SEA TO SPACE, YOU'LL FIND SLUGS EVERYWHERE
-  consent:
-    title: Cookie consent
-    description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our site and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our team better.
-    actions:
-      - accept
-      - reject
-      - manage
+
 nav:
   - Home: index.md
   - Projects:
