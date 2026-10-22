@@ -17,9 +17,6 @@ generation of aerospace leaders.
   <a href="https://slugworks.engineering.ucsc.edu/" target="_blank" rel="noopener">
     <img src="../assets/sponsors/slugworks.webp" alt="UCSC Slugworks">
   </a>
-<a href="https://rocket.supplies/" target="_blank" rel="noopener">
-    <img src="../assets/sponsors/rocketsupplies.webp" alt="Rocket Supplies">
-  </a>
   <a href="https://engineering.ucsc.edu/" target="_blank" rel="noopener">
     <img src="../assets/sponsors/baskin.webp" alt="UCSC Baskin Engineering">
   </a>
@@ -31,9 +28,6 @@ generation of aerospace leaders.
   </a>
     <a href="https://www.onshape.com/en/" target="_blank" rel="noopener">
     <img src="../assets/sponsors/onshape.webp" alt="OnShape">
-  </a>
-    <a href="https://www.ansys.com/" target="_blank" rel="noopener">
-    <img src="../assets/sponsors/ansys.webp" alt="Ansys">
   </a>
     <a href="https://www.3ds.com/" target="_blank" rel="noopener">
     <img src="../assets/sponsors/dassault.webp" alt="Dassault Systèmes">
