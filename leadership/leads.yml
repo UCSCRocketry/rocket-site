@@ -1,0 +1,170 @@
+executive:
+  - id: teodor
+    name: Teodor Langan
+    position: President
+    short_bio: 4th Year Robotics Engineer
+    socials:
+
+  - id: alexander
+    name: Alexander Daltchev
+    position: Vice President
+    short_bio: 4th Year Business Management Economics (Accounting)
+    socials:
+
+  - id: hunter
+    name: Hunter Sanjabi
+    position: Lab Safety Officer
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+
+  - id: purvi
+    name: Purvi Patil
+    position: Finance Lead 
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+
+  - id: hennessy
+    name: Hennessy Soto-Silvas
+    position: Outreach Lead
+    short_bio: 4th Year Robotics Engineer
+    socials:
+
+project:
+  - id: matthew
+    name: Matthew Horowitz
+    position: Vehicle
+    short_bio: 2nd Year Molecular Cell Development Biology
+    socials:
+
+  - id: oscar
+    name: Oscar Huth
+    position: Payload 
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+
+  - id: javier
+    name: Javier Valencia
+    position: Recovery
+    short_bio: 3rd Year Applied Mathematics
+    socials:
+
+  - id: harry
+    name: Harry Whalen
+    position: Thrust Vector Control
+    short_bio: 3rd Year Computer Science
+    socials:
+      linkedin: https://www.linkedin.com/in/harrywhalen/
+      github: https://github.com/harrywhalen
+
+avionics:
+  - id: julia
+    name: Julia Barbera
+    position: Avionics
+    short_bio: 4th Year Electrical Engineer
+    socials:
+      linkedin: https://linkedin.com/in/JuliaBarbera
+      github: https://github.com/JuliaFishBarbera
+      website: https://jbarbera.space
+      
+  - id: rachelle
+    name: Rachelle Wang
+    position: Avionics Hardware
+    short_bio: 2nd Year Electrical Engineer
+    socials:
+      linkedin: https://www.linkedin.com/in/rachellejwang/
+      github: https://github.com/snowykritter
+
+  - id: ruhmit
+    name: Ruhmit Sahu
+    position: Avionics Hardware
+    short_bio: 2nd Year Computer Science + Electrical Engineer
+    socials: 
+
+  - id: joe 
+    name: Joe Cai
+    position: Avionics Software
+    short_bio: 3rd Year Computer Science
+    socials:
+
+unc:
+  - id: dayton
+    name: Dayton Nguyen
+    position: Vehicle
+    short_bio: 3rd Year Robotics Engineer
+    socials:
+
+  - id: nivedita
+    name: Nivedita Kamath
+    position: Payload
+    short_bio: 4th Year Robotics Engineer
+    socials:
+
+  - id: merrick
+    name: Merrick Fort
+    position: Avionics Software
+    short_bio: 2026 CS
+    socials:
+      linkedin: https://www.linkedin.com/in/merrick-fort/
+      website: https://merrickfort.com/
+
+  - id: sage
+    name: Sage Silberman
+    short_bio: 4th Year CS
+    position: Avionics Ground Control
+    socials:
+
+  - id: alex
+    name: Alexandria Reyes Onions
+    position: Finance Lead
+    short_bio: Slug
+    socials:
+
+  - id: heli
+    name: Heli Kadakia
+    position: Lab Safety Officer
+    short_bio: 4th Year CS/CE
+    socials:
+      linkedin: https://www.linkedin.com/in/helikadakia/
+      github: https://github.com/hkadakia05
+      website: https://hkadakia05.github.io/heli-website-react1
+  
+  - id: qingyuan
+    name: Qingyuan Cao
+    position: President
+    short_bio: 2024
+    socials:
+
+  - id: khanh
+    name: Khanh Tran
+    position: Vice President
+    short_bio: 2024 Electrical Engineer
+    socials:
+      linkedin: https://www.linkedin.com/in/khanh-n-tran/
+
+  - id: laura
+    name: Laura Ortiz
+    position: Payload Lead
+    short_bio: 2024
+    socials:
+      linkedin: https://www.linkedin.com/in/laura-ortiz-08b4801b7/
+
+  - id: marcus
+    name: Marcus Chan
+    position: Lab Safety Officer
+    short_bio: 2024
+
+  - id: john
+    name: John Drab
+    position: Safety Officer
+    short_bio: 2023
+
+  - id: karina
+    name: Karina Aguilar
+    position: Vice President
+    short_bio: 2023
+
+#  - id: shortname
+#    name: longname
+#    position: position
+#    short_bio: shortbio
+#    socials:
