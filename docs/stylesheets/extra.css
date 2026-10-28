@@ -454,3 +454,81 @@
     margin-top: 10px;
   }
 }
+
+/* Sub Leader container */
+.sublead {
+  gap: 15px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column row;
+}
+
+/* Sub Leader card container */
+.sub-lead-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #111;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  min-height: 180px;
+  position: relative; /* for icons positioning */
+}
+
+.sub-lead-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Leader image */
+.sub-lead-card img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Text container */
+.sub-lead-card .lead-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px 20px;
+}
+
+/* Name */
+.sub-lead-card .lead-info h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+/* Position */
+.sub-lead-card .lead-info .position {
+  color: #aaa;
+  font-weight: 500;
+  margin: 3px 0 8px 0;
+  font-size: 0.95rem;
+}
+
+/* Short bio */
+.sub-lead-card .lead-info .short-bio {
+  color: #fff;
+  font-size: 0.88rem;
+  line-height: 1.3;
+  margin-bottom: 30px; /* space for icons */
+}
+
+/* Social icons container */
+.sub-lead-card .lead-info .socials {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
