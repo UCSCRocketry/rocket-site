@@ -11,6 +11,7 @@ executive:
     short_bio: 4th Year Business Management Economics (Accounting)
     socials:
 
+operation:
   - id: hunter
     name: Hunter Sanjabi
     position: Lab Safety Officer
@@ -19,44 +20,29 @@ executive:
 
   - id: purvi
     name: Purvi Patil
-    position: Finance Lead 
+    position: Finance
     short_bio: 2nd Year Robotics Engineer
     socials:
 
-  - id: hennessy
-    name: Hennessy Soto-Silvas
-    position: Outreach Lead
-    short_bio: 4th Year Robotics Engineer
+  - id: poorvi
+    name: Poorvi Sharma
+    position: Outreach
+    short_bio: 3rd Year Computer Science
     socials:
 
-project:
+competition:
   - id: matthew
     name: Matthew Horowitz
     position: Vehicle
-    short_bio: 2nd Year Molecular Cell Development Biology
+    short_bio: 2nd Year Molecular, Cell & Developmental Biology
     socials:
 
-  - id: oscar
-    name: Oscar Huth
-    position: Payload 
-    short_bio: 2nd Year Robotics Engineer
-    socials:
-
-  - id: javier
-    name: Javier Valencia
-    position: Recovery
-    short_bio: 3rd Year Applied Mathematics
-    socials:
-
-  - id: harry
-    name: Harry Whalen
-    position: Thrust Vector Control
+  - id: fil
+    name: Filipp Khabur
+    position: Simulations
     short_bio: 3rd Year Computer Science
     socials:
-      linkedin: https://www.linkedin.com/in/harrywhalen/
-      github: https://github.com/harrywhalen
 
-avionics:
   - id: julia
     name: Julia Barbera
     position: Avionics
@@ -65,28 +51,59 @@ avionics:
       linkedin: https://linkedin.com/in/JuliaBarbera
       github: https://github.com/JuliaFishBarbera
       website: https://jbarbera.space
-      
-  - id: rachelle
-    name: Rachelle Wang
-    position: Avionics Hardware
-    short_bio: 2nd Year Electrical Engineer
+    avionics:
+      - id: rachelle
+        name: Rachelle Wang
+        position: Avionics Hardware
+        short_bio: 2nd Year Electrical Engineer
+      - id: ruhmit
+        name: Ruhmit Sahu
+        position: Avionics Hardware
+        short_bio: 2nd Year Computer Science + Electrical Engineer
+        socials: 
+      - id: joe 
+        name: Joe Cai
+        position: Avionics Software
+        short_bio: 3rd Year Computer Science
+        socials:
+
+  - id: oscar
+    name: Oscar Huth
+    position: Payload 
+    short_bio: 2nd Year Robotics Engineer
     socials:
-      linkedin: https://www.linkedin.com/in/rachellejwang/
-      github: https://github.com/snowykritter
+    payload: # add subleads eventually
 
-  - id: ruhmit
-    name: Ruhmit Sahu
-    position: Avionics Hardware
-    short_bio: 2nd Year Computer Science + Electrical Engineer
-    socials: 
-
-  - id: joe 
-    name: Joe Cai
-    position: Avionics Software
+rnd:
+  - id: harry
+    name: Harry Whalen
+    position: Thrust Vector Control and Liquids
     short_bio: 3rd Year Computer Science
     socials:
+      linkedin: https://www.linkedin.com/in/harrywhalen/
+      github: https://github.com/harrywhalen
+    tvc: # if want to add subleads add below (see payload/avionics for ref)
+
+cert:
+  - id: abbi
+    name: Abbi Hui
+    position: L1 Certification Lead
+    short_bio: 2nd year Astrophysics
+    socials:
+
+  - id: alejandro
+    name: Alejandro Estrella
+    position: L1 Certification Lead
+    short_bio: 2nd year Computer Science
+    socials: 
 
 unc:
+  - id: hennessy
+    name: Hennessy Soto-Silvas
+    position: Outreach
+    short_bio: 4th Year Robotics Engineer
+    socials:
+
   - id: dayton
     name: Dayton Nguyen
     position: Vehicle
