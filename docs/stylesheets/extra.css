@@ -532,3 +532,30 @@
   display: flex;
   gap: 10px;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sublead {
+    grid-template-columns: 1fr;
+  }
+  .sub-lead-card {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .sub-lead-card img {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .sub-lead-card .lead-info {
+    padding: 10px 15px;
+    position: relative;
+  }
+  .sub-lead-card .lead-info .socials {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin-top: 10px;
+  }
+}
