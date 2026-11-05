@@ -20,7 +20,8 @@ jobs:
       - name: Install Cairo for social cards
         run: sudo apt-get update && sudo apt-get install -y libcairo2
       - name: Install dependencies
-        run: python -m pip install --only-binary=:all: -r requirements.txt
+        run: |
+          python -m pip install --only-binary=:all: -r requirements.txt
       - name: Check dependencies
         run: python -m pip check
       - name: Build site (warnings are errors)
