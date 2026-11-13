@@ -10,7 +10,7 @@ cd rocket-site/
 ## Create virtual environment
 
 ```bash
-python -m venv venv
+python3.13 -m venv venv
 ```
 
 ## Activate virtual environment
@@ -62,6 +62,11 @@ git push
 
 Always preview site before pushing. Do not push directly to main.
 
+Run `python -m pip check` and `mkdocs build --strict` before opening a PR.
+Use Python 3.13 as pinned in `.python-version`, and install the Cairo system
+library for social card generation (`libcairo2` on Ubuntu or `cairo` on macOS).
+
 ## Create PR
 
-This happens on Github. Site maintainer must approve PRs.
+This happens on Github. Site maintainer must approve PRs, and the `Site build`
+check must pass before merging.
