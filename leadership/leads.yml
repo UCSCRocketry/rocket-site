@@ -1,0 +1,187 @@
+executive:
+  - id: teodor
+    name: Teodor Langan
+    position: President
+    short_bio: 4th Year Robotics Engineer
+    socials:
+
+  - id: alexander
+    name: Alexander Daltchev
+    position: Vice President
+    short_bio: 4th Year Business Management Economics (Accounting)
+    socials:
+
+operation:
+  - id: hunter
+    name: Hunter Sanjabi
+    position: Lab Safety Officer
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+
+  - id: purvi
+    name: Purvi Patil
+    position: Finance
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+
+  - id: poorvi
+    name: Poorvi Sharma
+    position: Outreach
+    short_bio: 3rd Year Computer Science
+    socials:
+
+competition:
+  - id: matthew
+    name: Matthew Horowitz
+    position: Vehicle
+    short_bio: 2nd Year Molecular, Cell & Developmental Biology
+    socials:
+
+  - id: fil
+    name: Filipp Khabur
+    position: Simulations
+    short_bio: 3rd Year Computer Science
+    socials:
+
+  - id: julia
+    name: Julia Barbera
+    position: Avionics
+    short_bio: 4th Year Electrical Engineer
+    socials:
+      linkedin: https://linkedin.com/in/JuliaBarbera
+      github: https://github.com/JuliaFishBarbera
+      website: https://jbarbera.space
+    avionics:
+      - id: rachelle
+        name: Rachelle Wang
+        position: Avionics Hardware
+        short_bio: 2nd Year Electrical Engineer
+      - id: ruhmit
+        name: Ruhmit Sahu
+        position: Avionics Hardware
+        short_bio: 2nd Year Computer Science + Electrical Engineer
+        socials: 
+      - id: joe 
+        name: Joe Cai
+        position: Avionics Software
+        short_bio: 3rd Year Computer Science
+        socials:
+
+  - id: oscar
+    name: Oscar Huth
+    position: Payload 
+    short_bio: 2nd Year Robotics Engineer
+    socials:
+    payload: # add subleads eventually
+
+rnd:
+  - id: harry
+    name: Harry Whalen
+    position: Thrust Vector Control and Liquids
+    short_bio: 3rd Year Computer Science
+    socials:
+      linkedin: https://www.linkedin.com/in/harrywhalen/
+      github: https://github.com/harrywhalen
+    tvc: # if want to add subleads add below (see payload/avionics for ref)
+
+cert:
+  - id: abbi
+    name: Abbi Hui
+    position: L1 Certification Lead
+    short_bio: 2nd year Astrophysics
+    socials:
+
+  - id: alejandro
+    name: Alejandro Estrella
+    position: L1 Certification Lead
+    short_bio: 2nd year Computer Science
+    socials: 
+
+unc:
+  - id: hennessy
+    name: Hennessy Soto-Silvas
+    position: Outreach
+    short_bio: 4th Year Robotics Engineer
+    socials:
+
+  - id: dayton
+    name: Dayton Nguyen
+    position: Vehicle
+    short_bio: 3rd Year Robotics Engineer
+    socials:
+
+  - id: nivedita
+    name: Nivedita Kamath
+    position: Payload
+    short_bio: 4th Year Robotics Engineer
+    socials:
+
+  - id: merrick
+    name: Merrick Fort
+    position: Avionics Software
+    short_bio: 2026 CS
+    socials:
+      linkedin: https://www.linkedin.com/in/merrick-fort/
+      website: https://merrickfort.com/
+
+  - id: sage
+    name: Sage Silberman
+    short_bio: 4th Year CS
+    position: Avionics Ground Control
+    socials:
+
+  - id: alex
+    name: Alexandria Reyes Onions
+    position: Finance Lead
+    short_bio: Slug
+    socials:
+
+  - id: heli
+    name: Heli Kadakia
+    position: Lab Safety Officer
+    short_bio: 4th Year CS/CE
+    socials:
+      linkedin: https://www.linkedin.com/in/helikadakia/
+      github: https://github.com/hkadakia05
+      website: https://hkadakia05.github.io/heli-website-react1
+  
+  - id: qingyuan
+    name: Qingyuan Cao
+    position: President
+    short_bio: 2024
+    socials:
+
+  - id: khanh
+    name: Khanh Tran
+    position: Vice President
+    short_bio: 2024 Electrical Engineer
+    socials:
+      linkedin: https://www.linkedin.com/in/khanh-n-tran/
+
+  - id: laura
+    name: Laura Ortiz
+    position: Payload Lead
+    short_bio: 2024
+    socials:
+      linkedin: https://www.linkedin.com/in/laura-ortiz-08b4801b7/
+
+  - id: marcus
+    name: Marcus Chan
+    position: Lab Safety Officer
+    short_bio: 2024
+
+  - id: john
+    name: John Drab
+    position: Safety Officer
+    short_bio: 2023
+
+  - id: karina
+    name: Karina Aguilar
+    position: Vice President
+    short_bio: 2023
+
+#  - id: shortname
+#    name: longname
+#    position: position
+#    short_bio: shortbio
+#    socials:
